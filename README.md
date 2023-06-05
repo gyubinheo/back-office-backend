@@ -41,7 +41,7 @@ docker-compose up --build
 ```
 
 ### Test
-```
+```python
 # Local에서 실행 가능
 pytest
 ```
