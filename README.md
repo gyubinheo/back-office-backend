@@ -45,3 +45,22 @@ docker-compose up --build
 # Local에서 실행 가능
 pytest
 ```
+
+### Codecov
+
+| Name                             | Stmts  |  Miss |Cover |
+| :------------------------------: | :----: | :---: | :--: |
+| config/__init__.py               |     0  |    0  | 100% |
+| config/settings.py               |    19  |    0  | 100% |
+| config/urls.py                   |     7  |    0  | 100% |
+| shop/__init__.py                 |     0  |    0  | 100% |
+| shop/admin.py                    |     1  |    0  | 100% |
+| shop/migrations/0001_initial.py  |     6  |    0  | 100% |
+| shop/migrations/__init__.py      |     0  |    0  | 100% |
+| shop/models.py                   |    17  |    3  |  82% |
+| shop/serializers.py              |    18  |    0  | 100% |
+| shop/tests/__init__.py           |     0  |    0  | 100% |
+| shop/tests/test_views.py         |    55  |    0  | 100% |
+| shop/urls.py                     |     6  |    0  | 100% |
+| shop/views.py                    |     6  |    0  | 100% |
+| TOTAL                            |   135  |    3  |  98% |
