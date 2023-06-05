@@ -26,17 +26,22 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-# url = localhost:8000
+# localhost:8000/admin
+# localhost:8000/doc
+# localhost:8000/shop
 ```
 
 ### Docker
 ```python
-docker-compose up
+docker-compose up --build
 
-# url = localhost:8000
+# localhost/admin
+# localhost/doc
+# localhost/shop
 ```
 
 ### Test
 ```
+# Local에서 실행 가능
 pytest
 ```
