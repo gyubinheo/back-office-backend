@@ -4,3 +4,4 @@ drf-writable-nested
 drf-yasg
 pytest
 pytest-django
+gunicorn
